@@ -2,6 +2,7 @@
 import java.util.*;
 /* calculate the n factorial  */
 public class CalculateFactorial {
+
     public static int calcFact(int n){
         if(n ==1 || n ==0){
             return 1;
