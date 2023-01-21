@@ -1,8 +1,9 @@
-public class Print_n_Nutural {
+/*print n natural number */
+public class Print_n_Natural {
 
     public static void natNums(int i, int n, int sum){
         if(i ==n){
-            sum =+i;
+            sum += i;
             System.out.println(sum);
             return;
         }
@@ -10,8 +11,9 @@ public class Print_n_Nutural {
         natNums(i+1, n, sum);
     }
     public static void main(String[] args){
+        System.out.print("The sum of n natural number is : ");
 
         
-        natNums(1, 9, 0);
+        natNums(1, 10, 0);
     }
 }
